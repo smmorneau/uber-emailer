@@ -26,10 +26,10 @@ If I had more time, I would also have given more detailed error messages to the 
 CONFIG SETUP
 ------------
 Replace the following values with your own in settings.cfg:
-- <your_secret_key>
-- <your_mandrill_key>
-- <your_mailgun_domain>
-- <your_mailgun_key>"
+- your_secret_key
+- your_mandrill_key
+- your_mailgun_domain
+- your_mailgun_key"
 
 Set DEFAULT_MAIL_SERVICE to "mailgun" or "mandrill"
 
@@ -37,6 +37,7 @@ Set DEFAULT_MAIL_SERVICE to "mailgun" or "mandrill"
 RUN APP
 -------
 $ export EMAILER_SETTINGS=/path/to/settings.cfg
+
 $ python emailer.py
 
 
