@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block body %}
+To send an email, send a POST request with JSON data to <a href="/email">/email</a>.<br><br>
+<u>Example payload</u><br>
+{
+  <blockquote>
+    'to': 'fake@example.com',<br>
+    'to_name': 'Ms. Fake',<br>
+    'from': 'noreply@uber.com', <br>
+    'from_name': 'Uber',<br>
+    'subject': 'A Message from Uber',<br>
+    'body': '&lt;h1&gt;Your Bill&lt;/h1&gt;&lt;p&gt;$10&lt;/p&gt;'
+  </blockquote>
+}
+{% endblock %}
