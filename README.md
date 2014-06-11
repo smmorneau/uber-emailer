@@ -29,7 +29,7 @@ Replace the following values with your own in settings.cfg:
 - your_secret_key
 - your_mandrill_key
 - your_mailgun_domain
-- your_mailgun_key"
+- your_mailgun_key
 
 Set DEFAULT_MAIL_SERVICE to "mailgun" or "mandrill"
 
